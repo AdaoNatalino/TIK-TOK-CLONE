@@ -6,6 +6,7 @@ import VideoSidebar from "./VideoSidebar"
 
 function Video({ url, channel, description, song, likes, messages, shares }) {
 
+    // using useRef hooks
     const videoRef = useRef(null)
     const [playing, setPlaying] = useState(false)
 
